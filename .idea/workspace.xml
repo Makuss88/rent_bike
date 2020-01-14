@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1c049e8-f7a8-4435-91be-f9f49d5b74b3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/rent_bike.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/build-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/cache/autodll-webpack-plugin/development_instance_0_cd480703a83193cd9204e44a47879636/dll.manifest.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/cache/autodll-webpack-plugin/development_instance_0_cd480703a83193cd9204e44a47879636/dll_4b8bef20edde04f98d3f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/cache/autodll-webpack-plugin/development_instance_0_cd480703a83193cd9204e44a47879636/dll_4b8bef20edde04f98d3f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/cache/autodll-webpack-plugin/development_instance_0_cd480703a83193cd9204e44a47879636/stats.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/react-loadable-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/react-loadable-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/server/init-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/server/init-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/server/on-error-server.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/server/on-error-server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/server/ssr-module-cache.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/server/ssr-module-cache.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/server/static/development/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/server/static/development/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/server/static/development/pages/_document.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/server/static/development/pages/_document.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/server/static/development/pages/_error.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/server/static/development/pages/_error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/server/static/development/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/server/static/development/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/static/chunks/0.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/static/chunks/0.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/static/development/dll/dll_4b8bef20edde04f98d3f.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/static/development/dll/dll_4b8bef20edde04f98d3f.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/static/development/pages/_app.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/static/development/pages/_app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/static/development/pages/_app.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/static/development/pages/_app.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/static/development/pages/_error.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/static/development/pages/_error.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/static/development/pages/_error.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/static/development/pages/_error.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/static/development/pages/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/static/development/pages/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/static/development/pages/index.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/static/development/pages/index.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/static/runtime/amp.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/static/runtime/amp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/static/runtime/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/static/runtime/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/static/runtime/main.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/static/runtime/main.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/static/runtime/polyfills.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/static/runtime/polyfills.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/static/runtime/webpack.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/static/runtime/webpack.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/static/runtime/webpack.js.map" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/static/runtime/webpack.js.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.next/static/webpack/5e49a5b5b55691e54ffa.hot-update.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/package-lock.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="dawid" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1WMFTSy8tPLBqyb84h9781Kmy93" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1c049e8-f7a8-4435-91be-f9f49d5b74b3" name="Default Changelist" comment="" />
+      <created>1578951569009</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578951569009</updated>
+    </task>
+    <servers />
+  </component>
+</project>
