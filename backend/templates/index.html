@@ -1,12 +1,26 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Rent a bike!</title>
 </head>
-<body>
+<body marginwidth="100">
 
-<h1>HELLO BABY!</h1>
+<h1>Rent bike!!</h1>
+
+<h2>Moje rowery:</h2>
+
+<Ol>
+    {% for bike in all_bikes %}
+
+    <h3>
+        <li>{{ bike.number_bike }} o kolorze {{ bike.color_bike }} <img src="{{bike.image}}", height="100px"></a></li>
+    </h3>
+
+    {% endfor %}
+</Ol>
+
 
 </body>
 </html>

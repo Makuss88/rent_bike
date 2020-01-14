@@ -1,6 +1,12 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from .models import Bike, User
 
 # Create your views here.
 def index(request):
-    return render(request, "index.html")
+    all_bikes = Bike.objects.all()
+    url = 'index.html'
+    context = {
+        'all_bikes': all_bikes
+    }
+
+    return render(request, url, context)
