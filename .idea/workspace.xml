@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1c049e8-f7a8-4435-91be-f9f49d5b74b3" name="Default Changelist" comment="create folder 'templates' - mayby all html in this dir, and creating models, Bike, and User">
-      <change afterPath="$PROJECT_DIR$/backend/bike/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/bike/migrations/0002_auto_20200114_1627.py" afterDir="false" />
+    <list default="true" id="b1c049e8-f7a8-4435-91be-f9f49d5b74b3" name="Default Changelist" comment="add 2 models - User, ane Bike, and give many items to db">
+      <change afterPath="$PROJECT_DIR$/backend/bike/serializers.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/bike/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bike/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/bike/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bike/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bike/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bike/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/bike/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/bike/views.py" afterDir="false" />
     </list>
     <list id="3d89457d-b638-4a34-bada-7c0a5a8ffe09" name="bad" comment="bad">
       <change beforePath="$PROJECT_DIR$/frontend/.next/build-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.next/build-manifest.json" afterDir="false" />
@@ -141,7 +142,21 @@
       <option name="project" value="LOCAL" />
       <updated>1579010059620</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="add 2 models - User, ane Bike, and give many items to db">
+      <created>1579016455604</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1579016455604</updated>
+    </task>
+    <task id="LOCAL-00007" summary="modification views.py to show all bikes, and index.html">
+      <created>1579019290730</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1579019290730</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -162,25 +177,27 @@
     <MESSAGE value="add first website, nothing special..." />
     <MESSAGE value="create db, and name 'bike'" />
     <MESSAGE value="create folder 'templates' - mayby all html in this dir, and creating models, Bike, and User" />
-    <option name="LAST_COMMIT_MESSAGE" value="create folder 'templates' - mayby all html in this dir, and creating models, Bike, and User" />
+    <MESSAGE value="add 2 models - User, ane Bike, and give many items to db" />
+    <MESSAGE value="modification views.py to show all bikes, and index.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification views.py to show all bikes, and index.html" />
   </component>
   <component name="WindowStateProjectService">
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser" timestamp="1579015646767">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579015646767" />
-    <state x="491" y="113" key="CommitChangelistDialog2" timestamp="1579010058930">
+    <state x="491" y="113" key="CommitChangelistDialog2" timestamp="1579042659502">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="491" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579010058930" />
+    <state x="491" y="113" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579042659502" />
     <state width="318" height="442" key="Diff.GoToChangePopup" timestamp="1579014684703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="318" height="442" key="Diff.GoToChangePopup/0.0.1920.1040@0.0.1920.1040" timestamp="1579014684703" />
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1579014766581">
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1579019264692">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579014766581" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579019264692" />
     <state x="807" y="419" key="GitRewordDialog" timestamp="1579010166229">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -189,10 +206,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="389" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579004871971" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1579010169907">
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1579019292241">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579010169907" />
+    <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579019292241" />
     <state x="769" y="436" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1579004696590">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
