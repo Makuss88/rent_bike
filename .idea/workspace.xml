@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b1c049e8-f7a8-4435-91be-f9f49d5b74b3" name="Default Changelist" comment="add 2 models - User, ane Bike, and give many items to db">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/backend/urls.py" afterDir="false" />
+    <list default="true" id="e6a51b7b-5891-410b-87c1-484fffdacdeb" name="Default Changelist" comment="Merge branch 'grzes'&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml&#10;#&#9;backend/backend/urls.py&#10;#&#9;frontend/.gitignore&#10;#&#9;frontend/package-lock.json&#10;#&#9;frontend/pages/index.tsx&#10;#&#9;frontend/tsconfig.json">
+      <change beforePath="$PROJECT_DIR$/backend/backend/urls.py" beforeDir="false" />
     </list>
-    <list id="3d89457d-b638-4a34-bada-7c0a5a8ffe09" name="bad" comment="bad" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
