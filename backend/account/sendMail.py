@@ -1,3 +1,5 @@
+import smtplib
+
 def sendMail(mailTo):
 
     user = 'sqltestsender@gmail.com'
