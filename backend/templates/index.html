@@ -7,20 +7,25 @@
 </head>
 <body marginwidth="100">
 
-<h1>Rent bike!!</h1>
+<div class="conteiner">
 
-<h2>Moje rowery:</h2>
+    <li><a href="account/register">Register</a> </li>
+    <h1>Rent bike!!</h1>
 
-<Ol>
-    {% for bike in all_bikes %}
+    <h2>Moje rowery:</h2>
 
-    <h3>
-        <li>{{ bike.number_bike }} o kolorze {{ bike.color_bike }} <img src="{{bike.image}}", height="100px"></a></li>
-    </h3>
+    <Ol>
+        {% for bike in all_bikes %}
 
-    {% endfor %}
-</Ol>
+        <h3>
+            <li>{{ bike.number_bike }} o kolorze {{ bike.color_bike }} <img src="{{bike.image}}" , height="100px"></a>
+            </li>
+        </h3>
 
 
+        {% endfor %}
+    </Ol>
+
+</div>
 </body>
 </html>

@@ -20,4 +20,5 @@ urlpatterns = [
     re_path('api/(?P<version>(v1|v2))/', include('bike.urls')),
     path('', include('bike.urls')),
     path('admin/', admin.site.urls),
+    path('account/', include('account.urls'))
 ]
