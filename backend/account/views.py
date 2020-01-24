@@ -1,6 +1,6 @@
 from django.contrib.auth.models import User
 from django.shortcuts import render, redirect
-from backend.account.sendMail import sendMail
+import smtplib
 
 
 # Create your views here.
@@ -36,3 +36,28 @@ def register(request):
         return render(request, 'register.html')
 
 
+def sendMail(mailTo):
+
+    user = 'sqltestsender@gmail.com'
+    password = 'console123!@#'
+
+    mailFrom = 'Poczta automatyczna od serweru!'
+    mailSubject = 'Rent a bike!'
+    mailBody = '''Witaj na moim portalu z wypozyczalnia rowerow!
+    '''
+
+    message = '''From: {}
+    Subject: {}
+
+    {}
+    '''.format(mailFrom, mailSubject, mailBody)
+
+    try:
+        server = smtplib.SMTP_SSL('smtp.gmail.com', 465)
+        server.ehlo()
+        server.login(user, password)
+        server.sendmail(user, mailTo, message)
+        server.close()
+        print('GOOD')
+    except:
+        print('BAD')
