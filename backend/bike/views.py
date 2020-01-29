@@ -1,16 +1,14 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
+from django.http import HttpResponse
+
+from rest_framework.views import APIView
+from rest_framework.response import Response
+from rest_framework import status
+
 from .models import Bike
-from rest_framework import generics
 from .serializers import BikeSerializer
 
 # Create your views here.
-
-class ListBikeView(generics.ListAPIView):
-    """
-    Provides a get method handler.
-    """
-    queryset = Bike.objects.all()
-    serializer_class = BikeSerializer
 
 def index(request):
     all_bikes = Bike.objects.all()
@@ -19,3 +17,11 @@ def index(request):
     }
 
     return render(request, 'index.html', context)
+
+
+class ListBikeView(APIView):
+
+    def get(self, request):
+        bike = Bike.objects.all()
+        serializer = BikeSerializer(bike, many=True)
+        return Response(serializer.data)
