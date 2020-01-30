@@ -15,10 +15,8 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
-import bike.views
 
 urlpatterns = [
-    path(r'bike/', bike.views.ListBikeView.as_view()),
     path(r'admin/', admin.site.urls),
     path(r'account/', include('account.urls')),
     path(r'',include('bike.urls'))

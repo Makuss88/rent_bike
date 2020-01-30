@@ -1,9 +1,11 @@
-from django.urls import path
+from django.urls import path, include
 from . import views
-from .views import ListBikeView
+from rest_framework import routers
 
+router = routers.DefaultRouter()
+router.register('bikes', views.BikeView)
 
 urlpatterns = [
-    path('', views.index, name='index'),
-    path('bike/', ListBikeView.as_view(), name="bikes-all")
+    path('', include(router.urls)),
+    path('index', views.index, name='index'),
 ]
