@@ -1,10 +1,9 @@
-from django.shortcuts import render, get_object_or_404
-from django.http import HttpResponse
+from django.shortcuts import render
 
 from rest_framework import viewsets
 
 from .models import Bike
-from .serializers import BikeSerializer
+from bike.serializers import BikeSerializer
 
 # Create your views here.
 
