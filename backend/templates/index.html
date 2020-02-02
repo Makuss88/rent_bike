@@ -14,7 +14,7 @@
         <div class="col">
             <nav class="nav nav-pills nav-justified">
                 <a class="nav-item nav-link" href="http://127.0.0.1:8000/index">
-                    <img src="{% static 'images/logo.png' %}" width='20px' height='30px' alt="go!"> My bikes! </a>
+                    <img src="{% static 'images/logo2.png' %}" class="logo" alt="go!"> My bikes! </a>
                 <a class="nav-item nav-link" href="account/register"> Registration for YOU! </a>
                 <a class="nav-item nav-link" href="#"> LOGIN FOR ME! </a>
                 <a class="nav-item nav-link" href="bikes"> moje rowery dla Dawida </a>
@@ -22,25 +22,8 @@
         </div>
     </div>
 
-
     {% block content %}
     {% endblock %}
-
-
-    <h1>Rent bike!!</h1>
-    <h2>Moje rowery:</h2>
-    <Ol>
-        {% for bike in all_bikes %}
-
-        <h3>
-            <li>{{ bike.number_bike }} o kolorze {{ bike.color_bike }} <img src="{{bike.image}}" height="100px"></a>
-            </li>
-        </h3>
-
-
-        {% endfor %}
-    </Ol>
-
 </div>
 </body>
 </html>
