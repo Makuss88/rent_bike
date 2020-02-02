@@ -3,19 +3,32 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
     <title>Rent a bike!</title>
 </head>
-<body marginwidth="100">
+<body>
 
-<div class="conteiner">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col">
+            <nav class="nav nav-pills nav-justified">
+                <a class="nav-item nav-link" href="http://127.0.0.1:8000/index">
+                    <img src="{% static 'images/logo.png' %}" width='20px' height='30px' alt="go!"> My bikes! </a>
+                <a class="nav-item nav-link" href="account/register"> Registration for YOU! </a>
+                <a class="nav-item nav-link" href="#"> LOGIN FOR ME! </a>
+                <a class="nav-item nav-link" href="bikes"> moje rowery dla Dawida </a>
+            </nav>
+        </div>
+    </div>
 
-    <li><a href="account/register">Rejestracja użytkownika</a></li> <!-- TODO trzeba dodać do menu -->
-    <li><a href="bike">moje rowery dla Dawida</a></li> <!-- TODO trzeba dodać do menu -->
+
+    {% block content %}
+    {% endblock %}
+
 
     <h1>Rent bike!!</h1>
-
     <h2>Moje rowery:</h2>
-
     <Ol>
         {% for bike in all_bikes %}
 
