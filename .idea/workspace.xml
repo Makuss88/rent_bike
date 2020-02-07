@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6a51b7b-5891-410b-87c1-484fffdacdeb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/wsgi.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,7 +33,7 @@
     <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="ProjectId" id="1WMFTSy8tPLBqyb84h9781Kmy93" />
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectViewState">
@@ -44,6 +46,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/backend" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -216,6 +219,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/backend" />
+    </ignored-roots>
     <MESSAGE value="add project in django" />
     <MESSAGE value="add MVT about bike (Model, View, Templates)" />
     <MESSAGE value="add first website, nothing special..." />
@@ -282,6 +288,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="672" y="235" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579439471277" />
+    <state x="490" y="187" key="SettingsEditor" timestamp="1581078583730">
+      <screen x="83" y="27" width="1837" height="1053" />
+    </state>
+    <state x="490" y="187" key="SettingsEditor/83.27.1837.1053@83.27.1837.1053" timestamp="1581078583730" />
     <state x="790" y="389" key="VCS.EditChangelistDialog" timestamp="1579004871971">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
