@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e6a51b7b-5891-410b-87c1-484fffdacdeb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/rent_bike.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rent_bike.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/backend/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/backend/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/templates/bike.html" beforeDir="false" afterPath="$PROJECT_DIR$/backend/templates/bike.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +43,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend/account" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/backend" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -195,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579824529004</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="modification - now run in Ubuntu">
+      <created>1581071870144</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1581071870144</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -226,7 +229,8 @@
     <MESSAGE value="add new class to sending mail" />
     <MESSAGE value="refactor" />
     <MESSAGE value="its not working, 2 steps back..." />
-    <option name="LAST_COMMIT_MESSAGE" value="its not working, 2 steps back..." />
+    <MESSAGE value="modification - now run in Ubuntu" />
+    <option name="LAST_COMMIT_MESSAGE" value="modification - now run in Ubuntu" />
   </component>
   <component name="WindowStateProjectService">
     <state x="459" y="210" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580934762145">
@@ -237,10 +241,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="765" y="235" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1579823273896" />
-    <state x="491" y="62" width="1148" height="978" key="CommitChangelistDialog2" timestamp="1579824528440">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="553" y="89" width="1148" height="978" key="CommitChangelistDialog2" timestamp="1581071869908">
+      <screen x="83" y="27" width="1837" height="1053" />
     </state>
     <state x="491" y="62" width="1148" height="978" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1579824528440" />
+    <state x="553" y="89" key="CommitChangelistDialog2/83.27.1837.1053@83.27.1837.1053" timestamp="1581071869908" />
     <state width="318" height="442" key="Diff.GoToChangePopup" timestamp="1579014684703">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -281,10 +286,11 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="790" y="389" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1579004871971" />
-    <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1579824530389">
-      <screen x="0" y="0" width="1920" height="1040" />
+    <state x="611" y="282" width="800" height="528" key="Vcs.Push.Dialog.v2" timestamp="1581071901967">
+      <screen x="83" y="27" width="1837" height="1053" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1579824530389" />
+    <state x="611" y="282" width="800" height="528" key="Vcs.Push.Dialog.v2/83.27.1837.1053@83.27.1837.1053" timestamp="1581071901967" />
     <state x="746" y="220" width="500" height="664" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1580920411322">
       <screen x="83" y="27" width="1837" height="1053" />
     </state>
