@@ -1,0 +1,31 @@
+{% extends 'index.html' %}
+
+{% block content %}
+
+<h1>Here are my bike: </h1>
+
+{% if all_bikes %}
+<Ol>
+    {% for bike in all_bikes %}
+    <h3>
+        <li><a href="bikes/{{ bike.id }}"> {{ bike.number_bike }} o kolorze {{ bike.color_bike }} i jest
+
+            {% if bike.is_free %}
+            wolny
+            {% else %}
+            zajety
+            {% endif %}
+
+
+        </a></li>
+    </h3>
+    {% endfor %}
+</Ol>
+
+{% else %}
+
+<h3> You don't have any rowerow! </h3>
+
+{% endif %}
+
+{% endblock %}

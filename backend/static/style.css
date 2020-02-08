@@ -1,0 +1,8 @@
+body {
+  background-image: url('images/background.jpg');
+  background-color: #757575;
+}
+
+img.logo {
+    max-width: 8%;
+}
