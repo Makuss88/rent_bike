@@ -1,7 +1,7 @@
 import smtplib
 
-def sendMail(mailTo):
 
+def sendMail(mailTo):
     user = 'sqltestsender@gmail.com'
     password = 'console123!@#'
 
