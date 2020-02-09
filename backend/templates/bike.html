@@ -5,13 +5,17 @@
 <h1>Here are my bike: </h1>
 
 {% if all_bikes %}
-<Ol>
+<ol>
   {% for bike in all_bikes %}
   <h3>
-    <li><a href="bikes/{{ bike.id }}"> {{ bike.number_bike }} o kolorze {{ bike.color_bike }}</a></li>
+    <li>
+      <a href="bikes/{{ bike.id }}">
+        {{ bike.number_bike }} o kolorze {{ bike.color_bike }}
+      </a>
+    </li>
   </h3>
   {% endfor %}
-</Ol>
+</ol>
 {% else %}
 
 <h3> You don't have any music </h3>
