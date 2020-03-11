@@ -24,7 +24,10 @@ SECRET_KEY = 'll4_2=08))o2xt&l2%1$ezhq1upu#7w%m#kim0rc_ne!ml65h9'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0',
+                 '127.0.0.1',
+                 '*',
+                 ]
 
 # Application definition
 
@@ -56,7 +59,7 @@ ROOT_URLCONF = 'backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, 'templates')],
+        'DIRS': [],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -77,10 +80,11 @@ WSGI_APPLICATION = 'backend.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'rentbike',
-        'USER': 'admin',
-        'PASSWORD': 'admin',
-        'HOST': 'localhost'
+        'NAME': 'bikesDB',
+        'USER': 'postgres',
+        'PASSWORD': 'postgres',
+        'HOST': 'postgres',
+        'PORT': '5432',
     }
 }
 
@@ -120,12 +124,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, 'static')
-]
-
-STATIC_ROOT = os.path.join(BASE_DIR, 'assets')
-
 REST_FRAMEWORK = {
     # When you enable API versioning, the request.version attribute will contain a string
     # that corresponds to the version requested in the incoming client request.
@@ -134,9 +132,8 @@ REST_FRAMEWORK = {
     'PAGE_SIZE': 10
 }
 
-
-CORS_ORIGIN_WHITELIST = (
+CORS_ORIGIN_WHITELIST = [
     'http://127.0.0.1:3000',
-)
+]
 
-CORS_ORIGIN_ALLOW_ALL=True
+CORS_ORIGIN_ALLOW_ALL = True  # TODO nie wiem do końca co to oznacza, ale jest i już

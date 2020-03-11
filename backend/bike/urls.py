@@ -7,5 +7,4 @@ router.register('bikes', views.BikeView)
 
 urlpatterns = [
     path('', include(router.urls)),
-    path('index', views.index, name='index'),
 ]
