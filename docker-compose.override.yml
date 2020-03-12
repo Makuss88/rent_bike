@@ -1,0 +1,8 @@
+# docker-compose.<PROJECT_NAME>.override.yml
+version: "3"
+
+# sciezka do lokalnego pliku zeby bralo zmiany z lokalnego -> dla kazdego customowa
+services:
+  react:
+    volumes:
+      - ~/Pulpit/Projekty/rent_bike/frontend:/frontend/frontend

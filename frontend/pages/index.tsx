@@ -67,9 +67,10 @@ class Home extends React.Component {
           )
         })
         }
-        <p>dupa</p>
+        <p>dupaa2</p>
 
        <form onSubmit={this.handleSubmit}>
+         acdsfds
             <input name="number" placeholder="number" type="text" value={this.state.number} onChange={this.handleChange} />
             <input name="color" placeholder="color" type="text" value={this.state.color} onChange={this.handleChange} />
             <input name="is_free" placeholder="is free" type="text" value={this.state.is_free} onChange={this.handleChange} />
