@@ -6,12 +6,16 @@ services:
   python:
     build:
       context: .
-      dockerfile: docker/Dockerfile
-    #volumes:
-    #- ./backend /backend
+      dockerfile: docker/python/Dockerfile
     ports:
     - 8000:8000
 
+  react:
+    build:
+      context: .
+      dockerfile: docker/react/Dockerfile
+    ports:
+    - 3000:3000
   postgres:
     image: postgres
     environment:
