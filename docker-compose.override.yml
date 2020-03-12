@@ -5,4 +5,4 @@ version: "3"
 services:
   react:
     volumes:
-      - ~/Pulpit/Projekty/rent_bike/frontend:/frontend/frontend
+      - ~/Pulpit/rent_bike/rent_bike/frontend:/frontend

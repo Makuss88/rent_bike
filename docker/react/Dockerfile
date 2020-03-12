@@ -8,8 +8,6 @@ ENV PATH /frontend/node_modules/.bin:$PATH
 
 RUN yarn
 
-CMD ["npm", "install", "next", "react", "react-dom"]
+CMD ["yarn install"]
 
-CMD ["npm", "start"]
-
-CMD ["npm", "run", "dev"]
+CMD ["yarn", "run", "dev"]

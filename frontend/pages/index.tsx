@@ -67,7 +67,7 @@ class Home extends React.Component {
           )
         })
         }
-        <p>dupaa2</p>
+        <p>dupka123456</p>
 
        <form onSubmit={this.handleSubmit}>
          acdsfds
