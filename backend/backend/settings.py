@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'rest_framework',
     'corsheaders',
+    'import_export',
 ]
 
 MIDDLEWARE = [
@@ -136,4 +137,4 @@ CORS_ORIGIN_WHITELIST = [
     'http://127.0.0.1:3000',
 ]
 
-CORS_ORIGIN_ALLOW_ALL = True  # TODO nie wiem do końca co to oznacza, ale jest i już
+CORS_ORIGIN_ALLOW_ALL = True

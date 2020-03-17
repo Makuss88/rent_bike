@@ -9,13 +9,13 @@ class Bike(models.Model):
         ('WHITE', 'White'),
     ]
 
-    number_bike = models.CharField(max_length=10)
+    number_bike = models.IntegerField(unique=True)
     color_bike = models.CharField(max_length=5, choices=COLOR_CHOICE)
     is_free = models.BooleanField(default=True)
-    image = models.CharField(max_length=1000)
+    image = models.CharField(max_length=500)
 
     def __str__(self):
         flag_borrow = 'borrow'
         if self.is_free:
             flag_borrow = 'free'
-        return "bike no. " + self.number_bike + " - it's " + flag_borrow
+        return "bike no. {} - it's {}".format(self.number_bike, flag_borrow)
