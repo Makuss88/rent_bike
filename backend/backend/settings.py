@@ -33,6 +33,7 @@ ALLOWED_HOSTS = ['0.0.0.0',
 
 INSTALLED_APPS = [
     'bike.apps.BikeConfig',
+    'client.apps.ClientConfig',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -42,6 +43,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'corsheaders',
     'import_export',
+    'oauth2_provider',
 ]
 
 MIDDLEWARE = [
@@ -130,7 +132,7 @@ REST_FRAMEWORK = {
     # that corresponds to the version requested in the incoming client request.
     'DEFAULT_PAGINATION_CLASS': 'rest_framework.pagination.PageNumberPagination',
     'DEFAULT_VERSIONING_CLASS': 'rest_framework.versioning.URLPathVersioning',
-    'PAGE_SIZE': 10
+    'PAGE_SIZE': 1000
 }
 
 CORS_ORIGIN_WHITELIST = [
