@@ -1,6 +1,6 @@
 FROM node:alpine
 
-COPY ./frontend /frontend
+COPY ./rent_bike/frontend /frontend
 
 WORKDIR /frontend
 
