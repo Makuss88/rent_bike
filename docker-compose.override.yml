@@ -9,5 +9,3 @@ services:
   react:
     volumes:
       - /home/makuss/PycharmProjects/bikesDB/rent_bike/frontend:/frontend
-
-
