@@ -1,7 +1,0 @@
-Django==3.0.3
-djangorestframework
-django-cors-headers
-django-import-export
-django-oauth-toolkit
-psycopg2
-Pillow

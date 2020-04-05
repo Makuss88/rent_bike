@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+
+  python:
+    volumes:
+      - /home/makuss/PycharmProjects/bikesDB/rent_bike/backend:/backend
+
+  react:
+    volumes:
+      - /home/makuss/PycharmProjects/bikesDB/rent_bike/frontend:/frontend
+
+

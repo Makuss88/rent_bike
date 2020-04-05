@@ -1,8 +1,8 @@
 FROM python
 
-COPY ./rent_bike /rent_bike
+COPY ./backend /backend
 
-WORKDIR /rent_bike
+WORKDIR /backend
 
 RUN pip3 install -r requimentes.txt
 
