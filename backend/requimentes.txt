@@ -1,8 +1,8 @@
-Django==3.0.3
+Django==3.0.5
 djangorestframework
 django-cors-headers
 django-import-export
-django-oauth-toolkit
-flask
+django-rest-auth
+django-allauth
 psycopg2
 Pillow
