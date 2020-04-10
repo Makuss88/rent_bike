@@ -1,0 +1,19 @@
+docker-compose.override.yml
+
+backend/bike/migrations/__pycache__/
+
+backend/bike/__pycache__/
+
+__pycache__/
+
+# Byte-compiled / optimized / DLL files
+backend/backend/__pycache__/
+*.py[cod]
+*$py.class
+
+
+# other
+*~
+*/*~
+*.pyc
+*.log
