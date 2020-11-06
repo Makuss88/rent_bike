@@ -8,7 +8,7 @@ The application is made for the needs of bike rental companies, and shows which 
 
 2. override docker.compose.override, for example:
 
-    ```services:
+    services:
 
     python:
         volumes:
@@ -17,7 +17,6 @@ The application is made for the needs of bike rental companies, and shows which 
     react:
         volumes:
         - /home/dawid/Pulpit/rent_bike/rent_bike/frontend:/frontend
-    ```
 
 3. Run `docker-compose up`
 
