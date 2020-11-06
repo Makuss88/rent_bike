@@ -1,9 +1,12 @@
 # rent_bike
-# rent_bike
 
+The application is made for the needs of bike rental companies, and shows which bikes are available.
+
+
+```
 1. Run `docker-compose build`
 
-1. override docker.compose.override, for example:
+2. override docker.compose.override, for example:
 
     ```services:
 
@@ -16,10 +19,10 @@
         - /home/dawid/Pulpit/rent_bike/rent_bike/frontend:/frontend
     ```
 
-1. Run `docker-compose up`
+3. Run `docker-compose up`
 
-1. Create database:
-    1. login to python container:
+4. Create database:
+    a) login to python container:
     `docker-compose exec python bash`
-    1. `python3 manage.py migrate`
-
+    b) `python3 manage.py migrate`
+```
